@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retangulo e Conta</title>
+</head>
+<body>
+    <h1>Atividade 12 - Desenvolvimento Web</h1>
+
+    <div >
+        <h2>1. Retângulo (Função Construtora)</h2>
+        <form id="formRetangulo">
+            <div >
+                <label>Base (x):</label>
+                <input type="number" id="baseRet"  required>
+            </div>
+            <div >
+                <label>Altura (y):</label>
+                <input type="number" id="alturaRet"  required>
+            </div>
+            <button type="submit">Calcular Área</button>
+        </form>
+        <div id="resRetangulo" class="resultado"></div>
+    </div>
+
+    <div >
+        <h2>2. Sistema Bancário (Herança e Classes)</h2>
+        <div >
+            <form id="formCorrente">
+                <h3>Conta Corrente</h3>
+                <div ><label>Nome:</label><input type="text" id="nomeC" required></div>
+                <div ><label>Banco:</label><input type="text" id="bancoC" required></div>
+                <div ><label>Nº Conta:</label><input type="text" id="numC" required></div>
+                <div ><label>Saldo:</label><input type="number" id="saldoC" required></div>
+                <div ><label>Limite Especial:</label><input type="number" id="limiteC" required></div>
+                <button type="submit">Gerar Conta Corrente</button>
+                <div id="resCorrente" class="resultado"></div>
+            </form>
+
+            <form id="formPoupanca">
+                <h3>Conta Poupança</h3>
+                <div><label>Nome:</label><input type="text" id="nomeP" required></div>
+                <div><label>Banco:</label><input type="text" id="bancoP" required></div>
+                <div><label>Nº Conta:</label><input type="text" id="numP" required></div>
+                <div><label>Saldo:</label><input type="number" id="saldoP" required></div>
+                <div><label>Juros (%):</label><input type="number" id="jurosP" required></div>
+                <div><label>Vencimento:</label><input type="text" id="vencimentoP" required></div>
+                <button type="submit">Gerar Conta Poupança</button>
+                <div id="resPoupanca" class="resultado"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./objetos.js"></script>
+
+</body>
+</html>
