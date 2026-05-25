@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Transformador de Texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .campo {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Transformador de Texto (Maiúsculas / Minúsculas)</h2>
+
+    <div class="campo">
+        <label for="meuTexto">Digite o texto:</label>
+        <input type="text" id="meuTexto" placeholder="Digite algo aqui...">
+    </div>
+
+    <div class="campo">
+        <input type="radio" id="opcaoMaiuscula" name="transformacao" value="maiuscula">
+        <label for="opcaoMaiuscula">Transformar em Maiúsculas</label>
+        
+        <br>
+        
+        <input type="radio" id="opcaoMinuscula" name="transformacao" value="minuscula">
+        <label for="opcaoMinuscula">Transformar em Minúsculas</label>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
